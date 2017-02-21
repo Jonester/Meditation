@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		3C1F7AAB1E5BA5D4005C8881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F7AAA1E5BA5D4005C8881 /* AppDelegate.swift */; };
-		3C1F7AAD1E5BA5D4005C8881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F7AAC1E5BA5D4005C8881 /* ViewController.swift */; };
 		3C1F7AB01E5BA5D4005C8881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F7AAE1E5BA5D4005C8881 /* Main.storyboard */; };
 		3C1F7AB21E5BA5D4005C8881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F7AB11E5BA5D4005C8881 /* Assets.xcassets */; };
 		3C1F7AB51E5BA5D4005C8881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1F7AB31E5BA5D4005C8881 /* LaunchScreen.storyboard */; };
+		3C1F7ABD1E5BA79B005C8881 /* AddFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F7ABC1E5BA79B005C8881 /* AddFavoriteViewController.swift */; };
+		3C1F7ABF1E5BB0F9005C8881 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F7ABE1E5BB0F9005C8881 /* MasterViewController.swift */; };
+		3C1F7AC11E5BB11E005C8881 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F7AC01E5BB11E005C8881 /* SettingsViewController.swift */; };
+		3C1F7AC31E5BB1FF005C8881 /* MeditationSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F7AC21E5BB1FF005C8881 /* MeditationSettingsTableViewController.swift */; };
+		3C1F7AC51E5BB2C8005C8881 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F7AC41E5BB2C8005C8881 /* SupportViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C1F7AA71E5BA5D4005C8881 /* MeditationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeditationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1F7AAA1E5BA5D4005C8881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C1F7AAC1E5BA5D4005C8881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C1F7AAF1E5BA5D4005C8881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C1F7AB11E5BA5D4005C8881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C1F7AB41E5BA5D4005C8881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C1F7AB61E5BA5D4005C8881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1F7ABC1E5BA79B005C8881 /* AddFavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFavoriteViewController.swift; sourceTree = "<group>"; };
+		3C1F7ABE1E5BB0F9005C8881 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		3C1F7AC01E5BB11E005C8881 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3C1F7AC21E5BB1FF005C8881 /* MeditationSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeditationSettingsTableViewController.swift; sourceTree = "<group>"; };
+		3C1F7AC41E5BB2C8005C8881 /* SupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 		3C1F7A9E1E5BA5D4005C8881 = {
 			isa = PBXGroup;
 			children = (
+				3C1F7ABE1E5BB0F9005C8881 /* MasterViewController.swift */,
 				3C1F7AA91E5BA5D4005C8881 /* MeditationApp */,
 				3C1F7AA81E5BA5D4005C8881 /* Products */,
 			);
@@ -54,9 +63,12 @@
 		3C1F7AA91E5BA5D4005C8881 /* MeditationApp */ = {
 			isa = PBXGroup;
 			children = (
-				3C1F7AAA1E5BA5D4005C8881 /* AppDelegate.swift */,
-				3C1F7AAC1E5BA5D4005C8881 /* ViewController.swift */,
 				3C1F7AAE1E5BA5D4005C8881 /* Main.storyboard */,
+				3C1F7AC41E5BB2C8005C8881 /* SupportViewController.swift */,
+				3C1F7AC21E5BB1FF005C8881 /* MeditationSettingsTableViewController.swift */,
+				3C1F7AAA1E5BA5D4005C8881 /* AppDelegate.swift */,
+				3C1F7AC01E5BB11E005C8881 /* SettingsViewController.swift */,
+				3C1F7ABC1E5BA79B005C8881 /* AddFavoriteViewController.swift */,
 				3C1F7AB11E5BA5D4005C8881 /* Assets.xcassets */,
 				3C1F7AB31E5BA5D4005C8881 /* LaunchScreen.storyboard */,
 				3C1F7AB61E5BA5D4005C8881 /* Info.plist */,
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C1F7AAD1E5BA5D4005C8881 /* ViewController.swift in Sources */,
+				3C1F7AC31E5BB1FF005C8881 /* MeditationSettingsTableViewController.swift in Sources */,
+				3C1F7ABD1E5BA79B005C8881 /* AddFavoriteViewController.swift in Sources */,
+				3C1F7AC51E5BB2C8005C8881 /* SupportViewController.swift in Sources */,
 				3C1F7AAB1E5BA5D4005C8881 /* AppDelegate.swift in Sources */,
+				3C1F7ABF1E5BB0F9005C8881 /* MasterViewController.swift in Sources */,
+				3C1F7AC11E5BB11E005C8881 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
